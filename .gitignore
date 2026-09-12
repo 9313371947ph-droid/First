@@ -1,43 +1,33 @@
-```
-# Dependencies
-node_modules/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Build artifacts
+# Dependencies
+.venv/
+venv/
+node_modules/
+.mypy_cache/
+.pytest_cache/
 dist/
 build/
 target/
+.gradle/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.env
-.env.local
-.env.*
-.env.local.*
-.env.prod.*
-.env.production.*
-.env.test.*
-.env.testing.*
-.env.development.*
-.env.dev.*
-.python-version
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
 
-# Environment specific
+# Environment
 .env
 .env.local
 .env.*
@@ -47,11 +37,15 @@ htmlcov/
 .idea/
 *.swp
 *.swo
-*.tmp
 
-# OS generated
+# System
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -76,48 +70,3 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Gradle
-.gradle/
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-*.so
-
-# C/C++
-*.o
-*.a
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-
-# Go
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Rust
-target/
-
-# Julia
-julia-*/
-
-# Zig
-zig*/
-
-# Coverage
-coverage/
-htmlcov/
-*.coverage
-
-# Temporary files
-*.tmp
-*~
-```
