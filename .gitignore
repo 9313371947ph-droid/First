@@ -1,75 +1,56 @@
-```
-# Compiled and binary files
-*.pyc
-__pycache__/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Examples and documentation
+*.md
+*.txt
+*.rst
+docs/
+examples/
+tutorials/
 
-# Dependencies
+# Build artifacts and dependencies
+build/
+dist/
+target/
 node_modules/
-venv/
 .venv/
+venv/
+__pycache__/
+*.egg-info/
+.Python/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+coverage/
+
+# Configuration and environment
 .env
 .env.local
 .env.*
+config.json
+settings.json
+*.config
+*.ini
+*.cfg
 
-# Build artifacts
-dist/
-build/
-target/
-*.tar
-*.zip
-*.gz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Editor/IDE files
-.vscode/
-.idea/
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
 *.swp
 *.swo
-*.tmp
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
 .DS_Store
 Thumbs.db
 
-# Cache directories
-.mypy_cache/
-.pytest_cache/
-.gradle/
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
 
-# Compressed files
+# Archives and compressed files
 *.zip
 *.gz
 *.tar
@@ -92,4 +73,13 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
+
+# Images (if accidentally added)
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.webm
+*.svg
+*.ico
